@@ -1,0 +1,45 @@
+{
+  "name": "QuantaProfile",
+  "displayName": "QuantaProfile",
+  "expo": {
+    "name": "QuantaProfile",
+    "slug": "expo-template-bare",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "version": "1.0.4",
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "androidStatusBar": {
+      "backgroundColor": "#162228"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#162228"
+    },
+    "notification": {
+      "icon": "./src/assets/image/logo-greyscale.png",
+      "color" : "#eeeeee"
+    },
+    "icon": "./src/assets/image/logo.png",
+    "ios": {
+      "bundleIdentifier": "com.app.tradebeen",
+      "buildNumber": "1.0.4"
+    },
+    "android": {
+      "package": "com.app.tradebeen",
+      "versionCode": 1
+    },
+    "splash": {
+      "backgroundColor": "#fff",
+      "resizeMode": "contain",
+      "image": "./src/assets/image/logo.png",
+      "height" : 300,
+      "width" : 300
+    }
+
+  }
+}
